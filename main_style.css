@@ -66,11 +66,16 @@ section{
     z-index: -1;
 }
 
-#navbarNav .btn, section, h6{
+/* #navbarNav .btn, .section, h6{
  border: 2px solid yellow;
+} */
+
+.section{
+    margin-bottom:.5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border: 2px solid blue;
 }
-
-
 /* #Home{
    border: 3px red solid;
     width: 100%;
