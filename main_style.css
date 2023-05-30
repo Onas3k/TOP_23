@@ -71,9 +71,9 @@ section{
 } */
 
 .section{
-    margin-bottom:.5em;
-    padding-left: .5em;
-    padding-right: .5em;
+    margin:.5em;
+    /* margin-left: .5em;
+    margin-right: .5em; */
     border: 2px solid blue;
 }
 /* #Home{
@@ -103,3 +103,9 @@ min-width: 724px;
     position:fixed;
     top: 0;
     left: 0; */
+    .footer{
+        background-color: #d43343;
+    }
+    .ft_links{
+font-size: 12px;
+text-transform: uppercase;   }
