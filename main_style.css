@@ -109,3 +109,7 @@ min-width: 724px;
     .ft_links{
 font-size: 12px;
 text-transform: uppercase;   }
+.card-img-top{
+    min-width: 5%;
+    max-width: 30%;
+}
