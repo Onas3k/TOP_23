@@ -19,6 +19,7 @@ body{
     font-family: "bookmani";
     line-height: 1.7;
     color: var(--body);
+    /* width: 90%; */
 }
 h1,h2,h3,h4,h5,h6.display-4{
     color: var(--dark);
@@ -76,6 +77,21 @@ section{
     margin-right: .5em; */
     border: 2px solid blue;
 }
+.ourTeam{
+    /* margin: 0 auto; */
+}
+.ourTeam > img{
+    width: 150px;
+    /* padding-left: 3%; */
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.teamTxt{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
 /* #Home{
    border: 3px red solid;
     width: 100%;
@@ -110,6 +126,21 @@ min-width: 724px;
 font-size: 12px;
 text-transform: uppercase;   }
 .card-img-top{
-    min-width: 5%;
-    max-width: 30%;
+    margin: 0 auto;
+    width: 25%;
+    /* max-width: 30%; */
+}
+.card-img-top:hover{
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from{
+    transform: translate3d(0, 0, 0);
+  }  
+  to{
+    transform: translate3d(0,15px, 0);
+  }
 }
